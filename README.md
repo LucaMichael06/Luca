@@ -4,7 +4,11 @@ if getgenv().Loadgui == false then
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("KevinStinkt", "BloodTheme")
+local Window = Library.CreateLib("Script hub", "BloodTheme")
+local Tab = Window:NewTab("Info")
+local Section = Tab:NewSection("written by Luca")
+local Section = Tab:NewSection("helper MatthiasHD22 and Maxi1230111")
+local Section = Tab:NewSection("Best friend kev2345671")
 local Tab = Window:NewTab("RandomScripts")
 local Section = Tab:NewSection("RandomScripts")
 Section:NewButton("SharkBite", "SharkBite script", function()
