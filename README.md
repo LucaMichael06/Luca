@@ -14,6 +14,36 @@ local Section = Tab:NewSection("RandomScripts")
 Section:NewButton("SharkBite", "SharkBite script", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
 end)
+Section:NewButton("ButtonText", "ButtonInfo", function()
+loadstring(game:HttpGet("http://void-scripts.com/RIP/MallTycoon.lua"))()
+end)
+Section:NewButton("ButtonText", "ButtonInfo", function()
+local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))()
+local w = library:CreateWindow("Mall Tycoon")
+local b = w:CreateFolder("AutoFarm")
+local e = w:CreateFolder("Mix")
+local u = w:CreateFolder("Credits")
+
+--Toggle
+b:Toggle("AutoCollectButtons",function(bool)
+    shared.toggle = bool
+    AutoBuy = bool
+end)
+
+b:Toggle("AutoSelectStore",function(bool)
+    shared.toggle = bool
+    AutoSelectStore = bool
+end)
+
+b:Toggle("AutoRebirth",function(bool)
+    shared.toggle = bool
+    AutoRebirth = bool
+end)
+
+e:Toggle("AntiAfk",function(bool)
+    shared.toggle = bool
+    AntiAfk = bool
+end)
 local Tab = Window:NewTab("MurderMystery2")
 local Section = Tab:NewSection("MurderMystery2")
 Section:NewButton("MurderMystery", "The best MurderMystery script", function()
