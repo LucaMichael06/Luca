@@ -14,6 +14,17 @@ local Section = Tab:NewSection("RandomScripts")
 Section:NewButton("SharkBite", "SharkBite script", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
 end)
+Section:NewButton("ButtonText", "ButtonInfo", function()
+-- variable
+local stuff = getrenv()._G.FireNetwork
+local id = game.Players.LocalPlayer.UserId
+ 
+-- hacker stuff
+while true do
+    stuff("PlayerCatchFish", id)
+    wait()
+end
+end)
 local Tab = Window:NewTab("King legacy")
 local Section = Tab:NewSection("King legacy")
 Section:NewButton("ButtonText", "ButtonInfo", function()
