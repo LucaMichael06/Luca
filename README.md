@@ -29,6 +29,12 @@ while true do
     wait()
 end
 end)
+Section:NewButton("King piece", "idk", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/script/master/KingPiece.lua")))()
+end)
+Section:NewButton("King piece", "idk", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/KyP4n2rT%22,true))()
+end)
 local Tab = Window:NewTab("MurderMystery2")
 local Section = Tab:NewSection("MurderMystery2")
 Section:NewButton("MurderMystery", "The best MurderMystery script", function()
