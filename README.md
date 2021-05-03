@@ -30,10 +30,10 @@ while true do
 end
 end)
 Section:NewButton("King piece", "idk", function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/script/master/KingPiece.lua")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/AltsegoD/script/master/KingPiece.lua")))()
 end)
 Section:NewButton("King piece", "idk", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/KyP4n2rT%22,true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/KyP4n2rT",true))()
 end)
 local Tab = Window:NewTab("MurderMystery2")
 local Section = Tab:NewSection("MurderMystery2")
