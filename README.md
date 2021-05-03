@@ -29,6 +29,8 @@ while true do
     wait()
 end
 end)
+local Tab = Window:NewTab("King piece")
+local Section = Tab:NewSection("King piece")
 Section:NewButton("King piece", "idk", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/AltsegoD/script/master/KingPiece.lua")))()
 end)
