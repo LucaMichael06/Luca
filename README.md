@@ -30,6 +30,9 @@ while true do
     wait()
 end
 end)
+Section:NewButton("Lifting titans", "SharkBite script", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/f6xjtZNB",true))()
+end)
 local Tab = Window:NewTab("King piece")
 local Section = Tab:NewSection("King piece")
 Section:NewButton("King piece", "idk", function()
