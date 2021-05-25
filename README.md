@@ -33,6 +33,22 @@ end)
 Section:NewButton("Lifting titans", "SharkBite script", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/f6xjtZNB",true))()
 end)
+local Tab = Window:NewTab("magnet food")
+local Section = Tab:NewSection("magnet food")
+Section:NewButton("OP Gui", "auto rebirth and more", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LucaMichael06/food-magnet/main/README.md"))()
+end)
+Section:NewButton("Auto Buy", "Auto Buy", function()
+while wait() do
+local EASY = game:GetService("ReplicatedStorage").BuyBest
+EASY:FireServer()
+end
+end)
+Section:NewButton("Error frame", "visible error frame", function()
+while wait() do
+game:GetService("Players").LocalPlayer.PlayerGui.UI["Error_Frame"].Visible = false
+end
+end)
 local Tab = Window:NewTab("King piece")
 local Section = Tab:NewSection("King piece")
 Section:NewButton("King piece", "idk", function()
