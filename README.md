@@ -9,7 +9,7 @@ local Tab = Window:NewTab("Info")
 local Section = Tab:NewSection("written: Luca")
 local Section = Tab:NewSection("helper: MatthiasHD22 and Maxi1230111")
 local Section = Tab:NewSection("Best friend: Maxi1230111")
-local Section = Tab:NewSection("Girl Firend: Leonie my bby")
+local Section = Tab:NewSection("Girl Firend: Melina<3")
 
 local Tab = Window:NewTab("RandomScripts")
 local Section = Tab:NewSection("RandomScripts")
