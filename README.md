@@ -62,6 +62,11 @@ local Section = Tab:NewSection("MurderMystery2")
 Section:NewButton("MurderMystery", "The best MurderMystery script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
 end)
+Section:NewButton("Louis mm2", "The 2 best script", function()
+getgenv().mainKey = "nil"
+
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
 Section:NewButton("MurderMystery", "The 2 best script", function()
 loadstring(game:GetObjects("rbxassetid://6193945654")[1].Source)()
 end)
