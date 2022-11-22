@@ -54,13 +54,10 @@ while wait() do
 game:GetService("Players").LocalPlayer.PlayerGui.UI["Error_Frame"].Visible = false
 end
 end)
-local Tab = Window:NewTab("King piece")
+local Tab = Window:NewTab("grand piece")
 local Section = Tab:NewSection("King piece")
-Section:NewButton("King piece", "idk", function()
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/AltsegoD/script/master/KingPiece.lua")))()
-end)
-Section:NewButton("KingPiece", "good script", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/KyP4n2rT",true))()
+Section:NewButton("grand piece online", "good script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/Xtrey10xGpo"))()
 end)
 local Tab = Window:NewTab("MurderMystery2")
 local Section = Tab:NewSection("MurderMystery2")
